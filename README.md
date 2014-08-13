@@ -1,12 +1,12 @@
 ## Description
 
-This is a RESTFULL server on Slim and lluminate/database, not a fullly MVC FrameWork,
+This is a tightly RESTFULL server on Slim and Illuminate/database, not a fullly MVC FrameWork,
 
-It only provide a Model and Controller layer yet, so it can be used for building a 
+It only provide a Model and Controller layers yet, so it can be used for building a restfull server for
 
-restfull server for mobile app.
+mobile app.
 
-Thank these blog below! They inspirate me!
+Thank these blogs below! They inspirate me!
 
 http://12devsofxmas.co.uk/2012/12/day-4-mixing-and-matching-php-components-with-composer/
 
@@ -20,7 +20,11 @@ http://www.slimframework.com/news/slim-and-laravel-eloquent-orm
 
 3. public/index.php is the portal file
 
-4. app/models/Component.php is just my test model, you can replace it for your need
+4. In your terminal and your project directory ,run 'php -S localhost:8000'. In your browser.
+
+take a look at 'localhost:8000/public/index.php/welcome!'
+
+5. app/models/Component.php is just my test model, you can replace it for your need
 
 
 ## Note

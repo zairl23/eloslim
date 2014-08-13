@@ -11,6 +11,11 @@ $capsule = require_once __DIR__.'/../bootstrap/db.php';
  */
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+// Welcome
+$app->get('/welcome', function(){
+	echo "Welcome to restOnEloquent";
+});
+
 // Test for basic slim router
 $app->get('/hello/:name', function ($name) {
     echo "Ohai {$name}!";
