@@ -16,15 +16,15 @@ http://www.slimframework.com/news/slim-and-laravel-eloquent-orm
 
 1. Clone this project and run 'composer update'
 
-2. config your db config in bootstrap/db.php
+1. config your db config in bootstrap/db.php
 
-3. public/index.php is the portal file
+1. public/index.php is the portal file
 
-4. In your terminal and your project directory ,run 'php -S localhost:8000'. In your browser.
+1. In your terminal and your project directory ,run 'php -S localhost:8000'. In your browser.
 
 take a look at 'localhost:8000/public/index.php/welcome!'
 
-5. app/models/Component.php is just my test model, you can replace it for your need
+1. app/models/Component.php is just my test model, you can replace it for your need
 
 
 ## Note
