@@ -1,6 +1,6 @@
-## Description
+## Eloslim
 
-This is a tightly RESTFULL server on Slim and Illuminate/database, not a fullly MVC FrameWork,
+This is a lightly RESTFULL server on Slim and Illuminate/database, not a fullly MVC FrameWork,
 
 It only provide a Model and Controller layers yet, so it can be used for building a restfull server for
 
@@ -11,6 +11,8 @@ Thank these blogs below! They inspirate me!
 http://12devsofxmas.co.uk/2012/12/day-4-mixing-and-matching-php-components-with-composer/
 
 http://www.slimframework.com/news/slim-and-laravel-eloquent-orm
+
+Eloslim = Eloquent + Slim.
 
 ## Start
 
