@@ -22,16 +22,15 @@ $app->get('/hello/:name', function ($name) {
 });
 
 // Test for basic query
-$app->get('/testdb', function () use ($capsule){
-	$components = $capsule->table('components')->lists('cname','name');
-	echo json_encode($components);
-});
+//$app->get('/testdb', function () use ($capsule){
+//	$result = $capsule->table('your table name')->get();
+//	echo json_encode($result);
+//});
 
 // Test for connecting Eloquent
-$app->get('/testorm', function () {
-	$component = new Component;
-	echo json_encode($component->listNameCname());
-});
+//$app->get('/testmodel', function () {
+//	echo json_encode(User::all());
+//});
 
 
 $app->run();
