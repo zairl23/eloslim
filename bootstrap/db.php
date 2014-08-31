@@ -8,9 +8,9 @@ $capsule = new Capsule;
 $capsule->addConnection([
     'driver'    => 'mysql',
     'host'      => '127.0.0.1',
-    'database'  => 'clothes_development',
-    'username'  => 'root',
-    'password'  => '',
+    'database'  => 'your db name',
+    'username'  => 'user name',
+    'password'  => 'password',
     'charset'   => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix'    => '',

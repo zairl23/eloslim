@@ -21,7 +21,7 @@ Eloslim = Eloquent + Slim.
 1. public/index.php is the portal file
 1. In your terminal and your project directory ,run 'php -S localhost:8000'. In your browser.
 take a look at 'localhost:8000/public/index.php/welcome!'
-1. app/models/Component.php is just my test model, you can replace it for your need
+1. app/models/User.php is just my test model, you can replace it for your need
 
 
 ### Note
